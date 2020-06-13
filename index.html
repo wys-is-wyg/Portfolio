@@ -35,9 +35,90 @@
       </section>
     </header>
     <section id="work">
-		<div class="parallax-window" data-parallax="scroll" data-image-src="img/bw1.jpg">
-			<h2>Parallax Text</h2>
-		</div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Parallax Text</h2>
+            <div class="rellax" data-rellax-speed="-3">
+              <h5>I’m slow and smooth</h5>
+            </div>
+            <div class="rellax" data-rellax-speed="7">
+              <h5>I’m super fast!!</h5>
+            </div>
+            <div class="rellax" data-rellax-speed="-5" data-rellax-zindex="-20">
+              <h5>I’m extra slow and smooth and z-index of 2</h5>
+            </div>
+            <div class="rellax" data-rellax-zindex="0">
+              <h5>I’m that default chill speed of "-2" and default z-index of 0</h5>
+            </div>
+            <div class="rellax" data-rellax-speed="7" data-rellax-zindex="20">
+              <h5>I’m super fast!! And on top of the previous element, I'm z-index 5!!</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="space">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div id="parallax-image" class="rellax" data-rellax-zindex="-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="svg">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <svg viewBox="0 0 280 100">
+              <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-width="1" class="lines">
+                <path class="el" d="M58 80V50.12C57.7 41.6 51.14 35 43 35a15 15 0 0 0 0 30h7.5v15H43a30 30 0 1 1 0-60c16.42 0 29.5 13.23 30 29.89V80H58z"/>
+                <path class="el" d="M73 80V20H58v60h15z"/>
+                <path class="el" d="M58 80V49.77C58.5 33.23 71.58 20 88 20a30 30 0 0 1 30 30v30h-15V50a15 15 0 0 0-15-15c-8.14 0-14.7 6.6-15 15.12V80H58zm75 0V20h-15v60h15z"/>
+                <path class="el" d="M118 80V49.77C118.5 33.23 131.58 20 148 20a30 30 0 0 1 30 30v30h-15V50a15 15 0 0 0-15-15c-8.14 0-14.7 6.6-15 15.12V80h-15zm-7.5-60a7.5 7.5 0 1 1-7.48 8v-1c.25-3.9 3.5-7 7.48-7z"/>
+                <path class="el" d="M133 65a15 15 0 0 1-15-15v-7.5h-15V50a30 30 0 0 0 30 30V65zm30 15V49.77C163.5 33.23 176.58 20 193 20a30 30 0 0 1 30 30v30h-15V50a15 15 0 0 0-15-15c-8.14 0-14.7 6.6-15 15.12V80h-15z"/>
+                <path class="el" d="M238 65a15 15 0 0 1 0-30c8.1 0 14.63 6.53 15 15h-15v15h30V49.89C267.5 33.23 254.42 20 238 20a30 30 0 0 0 0 60V65z"/>
+                <path class="el" d="M260.48 65a7.5 7.5 0 1 1-7.48 8v-1c.26-3.9 3.5-7 7.48-7z"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ml">
+      <div class="ml add-span">
+        <div class="container">   
+          <div class="row">
+            <div class="col-12">
+              <h1 class="ml2">Sunny mornings</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ml add-span">
+        <div class="container">   
+          <div class="row">
+            <div class="col-12">
+              <h1 class="ml12">A new production</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ml">
+        <div class="container">   
+          <div class="row">
+            <div class="col-12">
+              <h1 class="ml9">
+                <span class="text-wrapper">
+                  <span class="letters">Coffee mornings</span>
+                </span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="about">
       <div class="container">
@@ -91,11 +172,12 @@
           </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/waypoint.min.js"></script>
-    <script src="js/parallax.min.js"></script>
+    <script src="js/rellax.min.js"></script>
     <script src="js/script.js"></script>
 	</body>
 </html>
