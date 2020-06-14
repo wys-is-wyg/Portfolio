@@ -32,6 +32,51 @@
             </ul>
           </div>
         </nav>
+        <div id="pddm-slide-container" class="hidden-xs">
+          <div class="pddm-slide">
+            <div class="slide-image" style="background-image:url(img/bw3.jpg);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="text-box">
+                      <h2>Some project</h2>
+                      <p>Read more of our (nearly 50 year) uniquely kiwi journey</p>
+                      <a href="#" class="open-modal" data-img="img/bw3.jpg">Open modal</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="pddm-slide">
+            <div class="slide-image" style="background-image:url(img/bw2.jpg);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="text-box">
+                      <h2>Another project</h2>
+                      <p>Smooth, creamy milk chocolate and locally-grown, roasted hazelnut pieces</p>
+                      <a href="#" class="open-modal" data-img="img/bw2.jpg">Open modal</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="pddm-slide">
+            <div class="slide-image" style="background-image:url(img/bw1.jpg)"></div>
+              <div class="container">
+                  <div class="row">
+                    <div class="text-box">
+                        <h2>Final project</h2>
+                        <p>Terms and conditions apply</p>
+                        <a href="#" class="open-modal" data-img="img/bw1.jpg">Open modal</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div id="pddm-slide-nav">
+            <ul>
+              <li><a href="#" class="active"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
       </section>
     </header>
     <section id="work">
@@ -130,7 +175,7 @@
         </div>
       </div>
     </section>
-    <section id="hero">
+    <section id="special">
       <div class="container">
         <div class="row justify-content-end">
           <div class="col-8">
@@ -184,6 +229,17 @@
           </div>
         </div>
     </footer>
+    <!--start Modal-->
+    <div id="modal-image" aria-hidden="true" aria-labelledby="Modal Label" class="modal fade" role="dialog" tabindex="-1">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div id="modal-image-wrapper" class="modal-body mb-0 p-0">
+            <img src="#" alt="" width="100%" height="auto"/>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--end Modal-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -191,5 +247,6 @@
     <script src="js/waypoint.min.js"></script>
     <script src="js/rellax.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
 	</body>
 </html>

@@ -139,8 +139,8 @@ $(document).ready(function() {
     * Add image pop-up 
     * for portfolio
     */
-  $('#portfolio img').click(function(){
-    var modal_image = $(this).attr('src');
+  $('.open-modal').click(function(){
+    var modal_image = $(this).data('img');
     $('#modal-image-wrapper img').attr('src', '' );
     $('#modal-image-wrapper img').attr('src', modal_image);
     $('#modal-image').modal('show');

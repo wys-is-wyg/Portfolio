@@ -57,6 +57,87 @@ header{
 }
 
 /* Hero */
+#pddm-slide-container {
+  height: 480px;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+#pddm-slide-container .pddm-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0;
+  z-index: 0;
+}
+#pddm-slide-container .slide-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#pddm-slide-container .text-box {
+  position: relative;
+  margin-top: 100px;
+  padding: 60px;
+  background: #fff;
+  min-width: 40%;
+}
+#pddm-slide-nav {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  display: block;
+  z-index: 3;
+  bottom: 30px;
+}
+#pddm-slide-nav ul {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  padding: 0;
+}
+#pddm-slide-nav ul li a {
+  background-color: #000;
+  width: 15px;
+  height: 15px;
+  display: block;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+#pddm-slide-nav ul li {
+  display: inline-block;
+  margin: 0 2px;
+}
+#pddm-slide-nav ul li a.active {
+  opacity: 1.0;
+}
+.open-modal{
+  background: #333;
+  padding: 15px 30px;
+  color: #fff;
+  margin-top: 15px;    
+  display: inline-block;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.open-modal:hover{
+  background: #777;
+  color: #fff;
+}
+.modal-lg, 
+.modal-xl {
+  max-width: 66vw;
+}
 
 /* Work */
 
@@ -163,7 +244,7 @@ header{
 }
 
 /* Hero Article */
-#hero{
+#special{
   height: 60vh;
   width: 100%;
   padding-top: 20vh;
@@ -173,7 +254,7 @@ header{
   -o-background-size: cover;
   background-size: cover;
 }
-#hero .rellax{
+#special .rellax{
   background: #fff;
   padding: 60px;
 }
