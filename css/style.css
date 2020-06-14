@@ -162,3 +162,18 @@ header{
   padding: 100px 0 70px;
 }
 
+/* Hero Article */
+#hero{
+  height: 60vh;
+  width: 100%;
+  padding-top: 20vh;
+  background: url(../img/bw2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#hero .rellax{
+  background: #fff;
+  padding: 60px;
+}
